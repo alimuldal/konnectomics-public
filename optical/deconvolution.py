@@ -81,7 +81,7 @@ def deconvolve(fluor, pos, prctile=10, A0=0.15, lamb0=0.15, do_plot=True):
         plot_hist_fit(distvec, corrvec2, (A2, lamb2), ax=ax2)
 
         ax1.set_title('Original', fontsize=18)
-        ax2.set_title('Deconvolved', fontsize=18)
+        ax2.set_title(      'Deconvolved', fontsize=18)
 
         ax2.set_xlabel('Distance (mm)', fontsize=14)
         ax1.set_ylabel('Correlation coefficient', fontsize=14)
