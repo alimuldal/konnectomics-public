@@ -1,0 +1,7 @@
+numpy
+scipy
+matplotlib
+cython
+tables
+scikit-learn
+joblib
